@@ -1,0 +1,302 @@
+*{
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',;
+}
+body{
+    padding:0px;
+    display: flex;  
+   flex-direction: column;
+   align-items: center;
+   scale: 0.9;
+    
+
+}
+.main{
+   display: flex;  
+   flex-direction: column;
+   /* align-items: ; */
+   width: 900px;
+   height: 1500px;
+   /* border: 1px solid black; */
+   /* background-color: darkorange; */
+}
+.nav_heading{
+    /* display: inline-block; */
+    display: flex; 
+    margin-top: 30px;  
+    justify-content: center;   
+    justify-content: space-around;
+}
+.buttons{
+  position: relative;
+  left:80px;
+  top: 20px;
+  width: 90px;
+  height: 25px;
+  border-radius: 30px;
+  color: pink;
+  border: 1px solid pink;
+
+}
+img{
+    position: relative;
+    left:100px;
+}
+.hud{
+    margin-left: 5px;
+    position: relative;
+    left:-140px
+   
+}
+.nav_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    width: 1000px;
+   
+}
+.para{
+    margin-top: -2px;
+    position: relative;
+    left: 10px;
+    /* right: 360px; */
+    width: 280px;
+    height: 55px;
+    font-size: x-small;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.start{
+    height: 33px;
+    width: 170px;
+    border-radius:30px;
+    color:white;
+    background-color: palevioletred;
+    border:2px solid pink;
+    
+}
+.nav_img{
+    position: relative;
+    left:220px;
+}
+.people{
+    margin: 30px;
+    position: relative;
+    /* top:-10px; */
+    left:60px;
+}
+.peoples{
+   line-height: 15px;
+}
+.media{
+    height: 20px;
+    position: relative;
+    left:-1px;
+    bottom:-10px;
+}
+.messages{
+    margin:30px;
+    position:relative;
+    left:410px;
+    top:-160px;
+}
+.rating{
+    line-height: 15px;
+}
+.chat{
+    position: relative;
+    left:-3px;
+    top:10px;
+}
+#file_down{
+    color: rgb(153, 153, 147);
+}
+.grow{
+    margin:30px;
+}
+.growing{
+    margin-bottom: 10px;
+}
+.para2{
+    font-size: x-small;
+    width: 300px;
+}
+.couples{
+    position: relative;
+    left:350px;  
+    bottom:200px;
+    /* display: flex;
+    justify-content: end;
+    align-items: end;
+    align-self: end; */
+    width:220px;
+    
+}
+.conversations .group{
+   position: relative;
+   bottom:70px;
+   left:40px
+}
+
+.matter{
+    position: relative;
+    left:340px;
+    bottom:280px
+}
+#para_3{
+    font-size: x-small;
+    width: 280px;
+}
+.user{
+    margin:40px;
+}
+.users .user{
+    line-height: -10;
+}
+#para_4{
+    font-size: x-small;
+    width: 280px;
+    margin-top: -10px;
+}
+.users img{
+    position: relative;
+    left: 300px;
+    bottom: 170px;
+}
+.build{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:-130px;
+}
+.start{
+    color:white;
+    background-color: palevioletred;
+    border:2px solid palevioletred;
+    margin-bottom: 50px;
+}
+.huddle .waves{
+   position: relative;
+   left:8px;
+}
+/* .waves_2{
+    position: relative;
+    bottom: 80px;
+    left:1100px;
+    top:-90px
+} */
+ .title{
+    margin: 40px;
+    position: relative;
+    bottom: 190px;
+    left:90px;
+    color: white;
+ }
+ .wave_message{
+    position: relative;
+    bottom:120px;
+    left:-275px;
+    margin:2px;
+    color:white;
+    background-color: beige;
+    /* text-decoration: none;
+    text-align: ; */
+ }
+.para_5{
+    font-size: x-small;
+    width: 390px;
+    margin:30px;
+    position: relative;
+    bottom:220px;
+    left:70px;
+    width: 140px;
+    margin-top:10px;
+}
+.waves_2{
+    position: relative;
+    left:9px;
+    bottom: 19px;
+}
+.news{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom:60px
+}
+h3{
+    position: relative;
+    bottom:370px;
+    color: beige;
+}
+.para_6{
+    position: relative;
+    left:29px;
+    bottom:370px;
+    color: beige;
+    font-size: x-small;
+    width: 190px;
+    margin-top:-15px;
+}
+.nav_text{
+    position: relative;
+    left:380px;
+    bottom:440px;
+}
+input .enter{
+    width:140px;
+    margin:5px;  
+}
+.subscribe{
+    color: azure;
+    background-color: palevioletred;
+    border:2px solid palevioletred
+}
+.call{
+    display: flex;
+    position: relative;
+    bottom:250px;
+    color: beige;
+    gap: 30px;
+
+}
+.number{
+  position: relative;
+  left:10px;
+}
+#phone{
+  position: relative;
+  top:20px;
+  left:30px;
+}
+#mail{
+    position: relative;
+    top:20px;
+    left:15px
+}
+.social_media{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    /* justify-content: space-around; */
+    gap:10px;
+    position: relative;
+    bottom:470px;
+    left:-90px
+    
+}
+h2{
+    color: blue;
+}
+h1{
+    color: blue;
+}
+p{
+    color: rgb(169, 173, 173);
+}
+
+

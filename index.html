@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  
+  <div class="main">
+    <div class="nav_heading">
+      <img src="./images/icon-messages.svg" alt="messages" width="20px" height="20px" style="margin-top: 25px;">
+      <h2 class="hud">Huddle</h2>
+      <button class="buttons">try it free</button>
+    </div>
+
+    <div class="nav_info">
+      <h2>build the community your fans will love?</h2>
+      <p class="para"> Huddle re-imagines the way we build communities. You have a voice, but so does 
+        your audience. Create connections with your users as you engage in genuine discussion. 
+      </p>
+      <button class="start">get started for free</button>
+    </div>
+
+    <div class="nav_img">
+      <img src="./images/filing.svg" alt="mockups" height="400px" width="470px">
+      
+      <div class="people">
+         <img class="media" src="./images/social.svg" alt="media">
+         <h1 class="peoples">1.4K+</h1>
+         <!-- <svg class="hi" width="47" height="41" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="170.649%" y1="50%" x2="-44.317%" y2="170.246%" id="a"><stop stop-color="#FF52C1" offset="0%"/><stop stop-color="#9952FF" offset="100%"/></linearGradient></defs><g transform="translate(-284 -1628)" fill="url(#a)" fill-rule="evenodd"><path d="M307.416 1629.333a3.136 3.136 0 0 0-3.132 3.132v.76a3.135 3.135 0 0 0 3.13 3.13h.002c.836 0 1.621-.325 2.213-.916a3.112 3.112 0 0 0 .918-2.215v-.758a3.11 3.11 0 0 0-.917-2.214 3.112 3.112 0 0 0-2.214-.919zm0 8.19h-.002a4.302 4.302 0 0 1-4.296-4.299v-.76a4.303 4.303 0 0 1 4.298-4.297 4.273 4.273 0 0 1 3.039 1.26 4.27 4.27 0 0 1 1.259 3.039v.758a4.27 4.27 0 0 1-1.26 3.04 4.265 4.265 0 0 1-3.038 1.258zM303.925 1668.759h-1.167l.003-23.916h1.166l-.002 23.916M312.067 1668.759H310.9l.003-23.916h1.166l-.002 23.916M307.997 1668.759h-1.168v-15.07h1.168v15.07"/><path d="M313.534 1654.273h-2.048v-1.166h2.048a.77.77 0 0 0 .768-.77v-9.357a2.832 2.832 0 0 0-1.943-2.694 15.808 15.808 0 0 0-9.887-.001 2.832 2.832 0 0 0-1.944 2.694l-.002 9.358a.77.77 0 0 0 .77.768h2.047v1.167h-2.049a1.938 1.938 0 0 1-1.934-1.937v-9.356a3.999 3.999 0 0 1 2.745-3.801 16.989 16.989 0 0 1 10.621 0 3.996 3.996 0 0 1 2.743 3.802v9.358a1.937 1.937 0 0 1-1.935 1.935M322.107 1631.926a3.134 3.134 0 0 0-3.131 3.13v.76c0 .835.326 1.622.917 2.214.592.59 1.378.917 2.214.917a3.135 3.135 0 0 0 3.132-3.132v-.758a3.135 3.135 0 0 0-3.132-3.131zm0 8.187a4.27 4.27 0 0 1-3.039-1.258 4.27 4.27 0 0 1-1.259-3.04v-.76a4.302 4.302 0 0 1 4.298-4.296 4.303 4.303 0 0 1 4.298 4.298v.758a4.303 4.303 0 0 1-4.298 4.298zM292.723 1631.922a3.11 3.11 0 0 0-2.214.917 3.11 3.11 0 0 0-.917 2.215v.758a3.135 3.135 0 0 0 3.13 3.131 3.136 3.136 0 0 0 3.133-3.13v-.76a3.135 3.135 0 0 0-3.131-3.13h-.001zm0 8.188a4.302 4.302 0 0 1-4.297-4.298v-.758c0-1.15.447-2.229 1.259-3.04a4.269 4.269 0 0 1 3.038-1.258 4.303 4.303 0 0 1 4.299 4.298v.759a4.304 4.304 0 0 1-4.3 4.297zM326.759 1668.76h-1.167l.001-21.325h1.167l-.001 21.325"/><path d="M328.224 1656.864h-2.047v-1.166h2.047a.77.77 0 0 0 .769-.768l.001-9.359a2.835 2.835 0 0 0-1.943-2.694 15.811 15.811 0 0 0-9.888-.001l-.367-1.107a16.997 16.997 0 0 1 10.62.001 3.999 3.999 0 0 1 2.745 3.801l-.001 9.359a1.937 1.937 0 0 1-1.936 1.934M318.617 1668.76h-1.167l.001-21.326h1.167l-.001 21.326M322.687 1668.76h-1.166v-12.48h1.167v12.48M289.232 1668.756h-1.167l.003-21.325h1.166l-.002 21.325M293.304 1668.756h-1.167l.001-12.478h1.167l-.001 12.478M297.374 1668.757h-1.165v-21.325h1.167l-.002 21.325"/><path d="M288.65 1656.86h-2.048a1.937 1.937 0 0 1-1.935-1.935v-9.357a3.997 3.997 0 0 1 2.745-3.801 16.956 16.956 0 0 1 10.621 0l-.367 1.108a15.783 15.783 0 0 0-9.887-.001 2.834 2.834 0 0 0-1.944 2.694l-.002 9.357c0 .424.345.768.77.768h2.047v1.167"/></g></svg> -->
+         <h5 class="peoples" id="file_down">communities formed</h5>
+     </div>
+
+      <div class="messages">
+         <img class="chat" src="./images/icon-messages.svg" alt="messages" width="20px" height="20px" style="margin-top: 25px;">
+        <h1 class="rating">2.7m+</h1>
+        <h5 class="rating" id="file_down">Messages sent</h5>
+      </div>
+
+      
+      <div class="grow">
+        <h2 class="growing">grow together</h2>
+        <p class="para2">Generate meaningful discussions with your audience and build a strong, loyal community. 
+        Think of the insightful conversations you miss out on with a feedback form. </p>
+        <img class="couples" src="./images/grow_photo.svg" alt="grow" height="300px" width="350px">
+      </div>
+
+    
+      <div class="conversations">
+        <img class="group" src="./images/matter.svg" alt="conversations" height="300px" width="230px">
+        <h2 class="matter">Flowing conversations</h2>
+        <p class="matter" id="para_3">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+          just-in-time loading for a more natural flow.</p>
+      </div>
+
+
+
+
+
+      <div class="users">
+        <h2 class="user">Your users</h2>
+        <p class="user" id="para_4">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+        once signed in to your app, your users can start chatting immediately.</p>
+         <img src="./images/3 members.svg" alt="user view" height="300px" width="230">
+      </div>
+      
+
+      <div class="build">
+        <h2 class="ready">Ready to Build your community ?</h2>
+        <button class="start">Get started for free</button>
+      </div>
+
+      <div class="huddle">
+        <img class="waves" src="./images/waves.svg" alt="wave">
+        <img class="waves_2" src="./images/waves_2.svg" alt="waves_2">
+        <img class="wave_message"  src="./images/icon-messages.svg" alt="messages" width="20px" height="20px" style="margin-top: 25px;">
+        <h2 class="title">Huddle</h2>
+        <p class="para_5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+        vestibulum a, ultrices quis sem.</p>     
+     </div>
+
+
+      <div class="call">
+        <i id="phone" class="fa-duotone fa-solid fa-phone-volume"></i>
+        <h5 class="number">phone: +1-543-123-4567</h5>
+        <i  id="mail" class="fa-regular fa-envelope"></i>
+        <h6>example@huddle.com</h6>
+      </div>
+
+     <div class="news">
+      <h3>NEWSLETTER</h3>
+      <p class="para_6">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+      send you spam or pass on your email address</p>  
+     </div>
+
+
+     <div class=" nav_text">
+      <input class="enter" type="text" placeholder="" >
+      <button  class="subscribe">Subscribe</button>
+     </div>
+
+
+     <div class="social_media">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+     </div>
+
+    </div>
+  </div>
+  <!-- Try it free
+   
+
+  Build The Community Your Fans Will Love
+
+  Huddle re-imagines the way we build communities. You have a voice, but so does 
+  your audience. Create connections with your users as you engage in genuine discussion. 
+
+  Get Started For Free
+
+  1.4k+
+  Communities Formed
+
+  2.7m+
+  Messages Sent
+
+  Grow Together
+  Generate meaningful discussions with your audience and build a strong, loyal community. 
+  Think of the insightful conversations you miss out on with a feedback form. 
+
+  Flowing Conversations
+  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+  just-in-time loading for a more natural flow.
+
+  Your Users
+  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+  once signed in to your app, your users can start chatting immediately.
+
+  Ready To Build Your Community?
+  Get Started For Free
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+  vestibulum a, ultrices quis sem.
+  
+  Phone: +1-543-123-4567
+  example@huddle.com
+
+  Newsletter
+  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+  send you spam or pass on your email address
+
+  Subscribe
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>
