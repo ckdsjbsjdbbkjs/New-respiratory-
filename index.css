@@ -1,302 +1,94 @@
 *{
     padding: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular',;
+    box-sizing: border-box;
 }
 body{
-    padding:0px;
-    display: flex;  
-   flex-direction: column;
-   align-items: center;
-   scale: 0.9;
-    
-
-}
-.main{
-   display: flex;  
-   flex-direction: column;
-   /* align-items: ; */
-   width: 900px;
-   height: 1500px;
-   /* border: 1px solid black; */
-   /* background-color: darkorange; */
-}
-.nav_heading{
-    /* display: inline-block; */
-    display: flex; 
-    margin-top: 30px;  
-    justify-content: center;   
-    justify-content: space-around;
-}
-.buttons{
-  position: relative;
-  left:80px;
-  top: 20px;
-  width: 90px;
-  height: 25px;
-  border-radius: 30px;
-  color: pink;
-  border: 1px solid pink;
-
-}
-img{
-    position: relative;
-    left:100px;
-}
-.hud{
-    margin-left: 5px;
-    position: relative;
-    left:-140px
-   
-}
-.nav_info{
+    margin: 0px;
+    text-align: center;
+    color: blue;
+    font-size: larger;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 40px;
-    width: 1000px;
-   
-}
-.para{
-    margin-top: -2px;
-    position: relative;
-    left: 10px;
-    /* right: 360px; */
-    width: 280px;
-    height: 55px;
-    font-size: x-small;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-.start{
-    height: 33px;
-    width: 170px;
-    border-radius:30px;
-    color:white;
-    background-color: palevioletred;
-    border:2px solid pink;
+    justify-content: center;
+    /* margin: 20px; */
+    justify-content: center;
+    background-image: url("https://media.istockphoto.com/id/1149180878/photo/dark-toned-photo-of-bouquet.jpg?s=1024x1024&w=is&k=20&c=9lpU1ljbL5ELSnY8bSDXN9v2uI7XBVdtO9WUT4hqxIA=");
+    object-fit: cover;
     
 }
-.nav_img{
-    position: relative;
-    left:220px;
-}
-.people{
-    margin: 30px;
-    position: relative;
-    /* top:-10px; */
-    left:60px;
-}
-.peoples{
-   line-height: 15px;
-}
-.media{
-    height: 20px;
-    position: relative;
-    left:-1px;
-    bottom:-10px;
-}
-.messages{
-    margin:30px;
-    position:relative;
-    left:410px;
-    top:-160px;
-}
-.rating{
-    line-height: 15px;
-}
-.chat{
-    position: relative;
-    left:-3px;
-    top:10px;
-}
-#file_down{
-    color: rgb(153, 153, 147);
-}
-.grow{
-    margin:30px;
-}
-.growing{
-    margin-bottom: 10px;
-}
-.para2{
-    font-size: x-small;
-    width: 300px;
-}
-.couples{
-    position: relative;
-    left:350px;  
-    bottom:200px;
-    /* display: flex;
-    justify-content: end;
-    align-items: end;
-    align-self: end; */
-    width:220px;
-    
-}
-.conversations .group{
-   position: relative;
-   bottom:70px;
-   left:40px
-}
-
-.matter{
-    position: relative;
-    left:340px;
-    bottom:280px
-}
-#para_3{
-    font-size: x-small;
-    width: 280px;
-}
-.user{
-    margin:40px;
-}
-.users .user{
-    line-height: -10;
-}
-#para_4{
-    font-size: x-small;
-    width: 280px;
-    margin-top: -10px;
-}
-.users img{
-    position: relative;
-    left: 300px;
-    bottom: 170px;
-}
-.build{
+.wheather{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: relative;
-    left:-130px;
+    height: 1000px;
+    width: 1350px;
+    margin-top: 25px;
+    /* border: 1px solid black; */
 }
-.start{
-    color:white;
-    background-color: palevioletred;
-    border:2px solid palevioletred;
-    margin-bottom: 50px;
+.navbar{
+    height: 400px;
+    width: 500px;
+    border: 1px solid blue;
+    /* margin-left: -200px; */
+    border-radius: 25px;
+    background-image: url("https://imgs.search.brave.com/JMU5_WD8HNFJhCs81eozm1Fo6D0DIoVBw35NrO6eu48/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvYXV0dW1uLWJh/Y2tncm91bmQtd2l0/aC1tdWx0aS1jb2xv/cmVkLWxlYXZlcy1m/bHlpbmctc2t5XzIy/NzY3OC0yNTEuanBn/P3NlbXQ9YWlzX2h5/YnJpZA");
+    box-shadow: 0px 0px 20px #d4d4d4;
+    border: none;
 }
-.huddle .waves{
-   position: relative;
-   left:8px;
-}
-/* .waves_2{
-    position: relative;
-    bottom: 80px;
-    left:1100px;
-    top:-90px
-} */
- .title{
-    margin: 40px;
-    position: relative;
-    bottom: 190px;
-    left:90px;
+input{
+    width: 350px;
+    height: 40px;
+    font-size: large;
+    border-radius: 14px;
+    background-color: yellowgreen;
     color: white;
- }
- .wave_message{
-    position: relative;
-    bottom:120px;
-    left:-275px;
-    margin:2px;
-    color:white;
-    background-color: beige;
-    /* text-decoration: none;
-    text-align: ; */
- }
-.para_5{
-    font-size: x-small;
-    width: 390px;
-    margin:30px;
-    position: relative;
-    bottom:220px;
-    left:70px;
-    width: 140px;
-    margin-top:10px;
+    border: none;
+    /* border: 5px transparent; */
 }
-.waves_2{
-    position: relative;
-    left:9px;
-    bottom: 19px;
+button{
+    width: 80px;
+    height: 30px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: grey;
+    border: none;
+    color: white;
 }
-.news{
-    display:flex;
-    flex-direction: column;
+.search_bar{
+    display: flex;
     align-items: center;
-    position: relative;
-    bottom:60px
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+   
 }
-h3{
-    position: relative;
-    bottom:370px;
-    color: beige;
-}
-.para_6{
-    position: relative;
-    left:29px;
-    bottom:370px;
-    color: beige;
-    font-size: x-small;
-    width: 190px;
-    margin-top:-15px;
-}
-.nav_text{
-    position: relative;
-    left:380px;
-    bottom:440px;
-}
-input .enter{
-    width:140px;
-    margin:5px;  
-}
-.subscribe{
-    color: azure;
-    background-color: palevioletred;
-    border:2px solid palevioletred
-}
-.call{
-    display: flex;
-    position: relative;
-    bottom:250px;
-    color: beige;
-    gap: 30px;
-
-}
-.number{
-  position: relative;
-  left:10px;
-}
-#phone{
-  position: relative;
-  top:20px;
-  left:30px;
-}
-#mail{
-    position: relative;
-    top:20px;
-    left:15px
-}
-.social_media{
-    display: flex;
-    justify-content: end;
-    align-items: start;
-    /* justify-content: space-around; */
-    gap:10px;
-    position: relative;
-    bottom:470px;
-    left:-90px
-    
+button:hover{
+    background-color: lightgreen;
 }
 h2{
-    color: blue;
+    margin-bottom: 20px;
 }
-h1{
-    color: blue;
+img{
+    border: none;
+    object-fit: cover;
+    border-radius: 10px;
 }
-p{
-    color: rgb(169, 173, 173);
+.inside{
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    margin: 15px;
+    margin-left: 40px;
 }
-
-
+.humidityis{
+    color: blueviolet;
+    font-size: small;
+}
+.overcast{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
